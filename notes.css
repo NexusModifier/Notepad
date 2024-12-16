@@ -1,0 +1,115 @@
+html {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover,
+a:link:hover,
+a:visited:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+body {
+  background-color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.notepad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  opacity: .95;
+  border-radius: 20px;
+  height: 800px;
+  width: 1500px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.toolbar {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.toolbar button {
+  border: none;
+  background-color: #d0d0d0b5;
+  color: #000;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  transition: all 0.2s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.toolbar button:hover {
+  background-color: #41ff67b5;
+  color: #ffffff;
+}
+
+textarea {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.603);
+  width: 1350px;
+  height: 600px;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin: 20px;
+  font-family: 'Quicksand', sans-serif;
+  opacity: .9;
+}
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
